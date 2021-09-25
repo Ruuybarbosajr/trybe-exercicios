@@ -1,6 +1,6 @@
 # Trybe
 
-- Este repositório contem todas as atividades de aprendizagem desenvolvidas na formação do curso da Trybe.
+- Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ruy Barbosa Jr.](https://www.linkedin.com/in/ruybarbosajr/)_ enquanto estudava na Trybe :rocket:
 
 - A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes
 
