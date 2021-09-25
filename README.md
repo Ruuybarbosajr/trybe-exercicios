@@ -1,12 +1,12 @@
 # Trybe
 
-- Este repositÃ³rio contÃ©m todas as atividades de aprendizagem desenvolvidas na formação do curso da Trybe.
+- Este repositório contem todas as atividades de aprendizagem desenvolvidas na formação do curso da Trybe.
 
 - A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes
 
 - A formação em desenvolvimento Web na [Trybe](https://www.betrybe.com/) é dividida em quatro módulos: Fundamentos do Desenvolvimento Web, Desenvolvimento Front-end, Desenvolvimento Back-end e Ciência da Computação.
 
-###### Fundamentos do Desenvolvimento Web
+### Fundamentos do Desenvolvimento Web
 
 ##### Bloco 01: Unix & Bash
 
@@ -91,7 +91,7 @@
 - [ ] 03: Jest - Simulando comportamentos
 - [ ] 04: Projeto - Jest Assíncrono e Mocking
 
-###### Desenvolvimento Front-end
+### Desenvolvimento Front-end
 
 #### Bloco 11: Introdução à React
 
@@ -149,7 +149,7 @@
 
 - [ ] 01: Projeto - App de Receitas
 
-###### Desenvolvimento Back-end
+### Desenvolvimento Back-end
 
 ##### Bloco 20: Introdução à SQL
 
@@ -247,7 +247,7 @@
 
 - [ ] 01: Projeto - App de Delivery
 
-###### Ciência da Computação
+### Ciência da Computação
 
 ##### Bloco 33: Introdução à Python
 
