@@ -3,4 +3,6 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash 
 - Git 
-Próximos blocos vamos aprender mais sobre HTML e CSS
+- HTML
+- CSS
+- Próximos blocos vamos aprender mais sobre HTML e CSS
