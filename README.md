@@ -18,12 +18,12 @@
 ##### Bloco 02: Git, GitHub e Internet
 
 - [x] 01: Git & GitHub - O que é e para que serve
-- [ ] 02: Git & GitHub - Entendendo os comandos
-- [ ] 03: Internet - Entendendo como ela funciona
+- [x] 02: Git & GitHub - Entendendo os comandos
+- [x] 03: Internet - Entendendo como ela funciona
 
 ##### Bloco 03: Introdução à HTML e CSS
 
-- [ ] 01: Introdução - HTML & CSS
+- [x] 01: Introdução - HTML & CSS
 - [ ] 01: HTML & CSS - Estruturas de página
 - [ ] 02: HTML & CSS - Primeiros passos em CSS
 - [ ] 03: HTML & CSS - Seletores e posicionamento
