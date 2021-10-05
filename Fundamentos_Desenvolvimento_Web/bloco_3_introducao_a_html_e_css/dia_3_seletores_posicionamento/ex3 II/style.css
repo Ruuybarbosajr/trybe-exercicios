@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div:hover{
+  border:2px solid aquamarine;
+}
+
+div:nth-child(3) h3{
+  background-color: chartreuse;
+  color: blue;
+}
+div:nth-child(4) h3{
+  background-color:chocolate;
+  font-family: monospace;
+}
+div:nth-child(5) h3{
+  background-color:cornflowerblue;
+  text-align: center;
+}
+div:nth-child(6) h3{
+  background-color:darkgoldenrod;
+  color: aliceblue;
+}
+div:nth-child(7) h3{
+  background-color: brown;
+  text-decoration: underline;
+}
+div:nth-child(odd){
+  font-style: italic;
+}
