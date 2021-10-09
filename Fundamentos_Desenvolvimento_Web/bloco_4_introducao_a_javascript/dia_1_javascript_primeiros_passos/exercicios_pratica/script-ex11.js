@@ -16,7 +16,6 @@ const aliquotIrSevenHalf = 0.075;
 const aliquotIrFifteen = 0.15;
 const aliquotIrTwentyTwoHalf = 0.225;
 const aliquotIrTwentySevenHalf = 0.275;
-// parcela a deduzir do importo
 
 if ( grossSalary <= 1556.94 ){
   descountedInss = grossSalary * aliquotInssEight;
