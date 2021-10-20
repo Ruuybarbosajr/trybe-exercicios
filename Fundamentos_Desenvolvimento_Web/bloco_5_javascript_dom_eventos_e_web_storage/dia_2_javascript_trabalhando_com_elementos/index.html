@@ -150,6 +150,49 @@
       addSubtitle(3);
 
       // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+
+      function addClassTitle() {
+        let titleBody = document.querySelector('h1');
+        titleBody.className = 'title';
+      }
+      addClassTitle();
+
+      function addClassInSubs() {
+        let subtitleMain = document.querySelectorAll('h3');
+        for (let index of subtitleMain) {
+          index.className = 'description';
+        }
+      }
+      addClassInSubs();
+
+      function removeSecondSection() {
+        let mainBody = document.querySelector('main');
+        let secondSectionMain = document.querySelector('.left-content');
+        mainBody.removeChild(secondSectionMain);
+      }
+      removeSecondSection();
+
+      function centerSection() {
+        let thirdSectionMain = document.querySelector('.right-content');
+        thirdSectionMain.style.marginRight = 'auto';
+      }
+      centerSection();
+
+      function chargeColorBackground() {
+        let sectionMain = document.querySelector('.center-content');
+        let dadSection = sectionMain.parentElement;
+        dadSection.style.background = 'green';
+      }
+      chargeColorBackground();
+
+      function removeItens(numberOfElements) {
+        let listNotOrdd = document.querySelector('ul');
+        for (let index = 0; index < numberOfElements; index++) {
+          let childList = listNotOrdd.lastChild;
+          listNotOrdd.removeChild(childList);
+        }
+      }
+      removeItens(2);
     </script>
   </body>
 </html>
