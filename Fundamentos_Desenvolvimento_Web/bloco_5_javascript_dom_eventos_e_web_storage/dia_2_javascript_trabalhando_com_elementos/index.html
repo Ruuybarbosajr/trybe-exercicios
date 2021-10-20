@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function addTitle() {
+        let titleBody = document.createElement('h1');
+        titleBody.innerText = 'Exercício 5.2 - JavaScript DOM';
+        let bodyOfHtml = document.querySelector('body');
+        bodyOfHtml.appendChild(titleBody);
+      }
+      addTitle();
+
+      function addMain() {
+        let mainBody = document.createElement('main');
+        mainBody.className = 'main-content';
+        let bodyOfHtml = document.querySelector('body');
+        bodyOfHtml.appendChild(mainBody);
+      }
+      addMain();
+
+      function addSection() {
+        let sectionMain = document.createElement('section');
+        sectionMain.className = 'center-content';
+        let mainBody = document.querySelector('main');
+        mainBody.appendChild(sectionMain);
+      }
+      addSection();
+
+      function addParagraph() {
+        let paragraphSection = document.createElement('p');
+        paragraphSection.innerText =
+          'Ei, você ai. Sim, você mesmo, conhece a Trybe? Claro né? E está esperando o que pra vir fazer parte da tribo?';
+        let sectionMain = document.querySelector('section');
+        sectionMain.appendChild(paragraphSection);
+      }
+      addParagraph();
+
+      function addSecondSection() {
+        let secondSectionMain = document.createElement('section');
+        secondSectionMain.className = 'left-content';
+        let mainBody = document.querySelector('main');
+        mainBody.appendChild(secondSectionMain);
+      }
+      addSecondSection();
+
+      function addThirdSection() {
+        let thirdSectionMain = document.createElement('section');
+        thirdSectionMain.className = 'right-content';
+        let mainBody = document.querySelector('main');
+        mainBody.appendChild(thirdSectionMain);
+      }
+      addThirdSection();
+
+      function addImgSection() {
+        let imgSection = document.createElement('img');
+        imgSection.className = 'small-image';
+        imgSection.src = 'https://picsum.photos/200';
+        let sectionLeft = document.querySelector('.left-content');
+        sectionLeft.appendChild(imgSection);
+      }
+      addImgSection();
+
+      let numberInFull = [
+        'um',
+        'dois',
+        'três',
+        'quatro',
+        'cinco',
+        'seis',
+        'sete',
+        'oito',
+        'nove',
+        'dez',
+      ];
+
+      function addListOfNumber() {
+        let listNotOrd = document.createElement('ul');
+        let sectionRight = document.querySelector('.right-content');
+        sectionRight.appendChild(listNotOrd);
+        for (let index of numberInFull) {
+          let itensList = document.createElement('li');
+          listNotOrd.appendChild(itensList);
+          itensList.innerText = index;
+        }
+      }
+      addListOfNumber();
+
+      function addSubtitle(unitSubtitles) {
+        for (let index = 0; index < unitSubtitles; index++) {
+          let subtitleMain = document.createElement('h3');
+          let mainBody = document.querySelector('main');
+          mainBody.appendChild(subtitleMain);
+        }
+      }
+      addSubtitle(3);
+
+      // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+    </script>
+  </body>
+</html>
