@@ -94,7 +94,6 @@ function zoomDays() {
   for (let index = 0; index < listDays.length; index++) {
     listDays[index].addEventListener('mouseover', function () {
       listDays[index].style.fontSize = '50px';
-      listDays[index].style.backgroundColor = '#fff';
     });
   }
 }
@@ -105,8 +104,62 @@ function outZoomDays() {
   for (let index = 0; index < listDays.length; index++) {
     listDays[index].addEventListener('mouseleave', function () {
       listDays[index].style.fontSize = '20px';
-      listDays[index].style.backgroundColor = 'rgb(238,238,238)';
     });
   }
 }
 outZoomDays();
+
+function addTask(parameterTask) {
+  let taskOfCalendar = document.createElement('span'); //Criando a tag span.
+  taskOfCalendar.innerText = parameterTask; // Adicionando conteúdo a tag criada o parâmetro da function
+  let divMyTask = document.querySelector('.my-tasks'); // selecionando a tag pai, para ligar a anteriormente criada
+  divMyTask.appendChild(taskOfCalendar); // ligando as tags (div = pai / span = filho )
+}
+addTask('Cozinhar'); // chamando função.
+
+function addColorTask(parameterColor) {
+  let newDivMyTask = document.createElement('div'); //Criando a tag div
+  newDivMyTask.className = 'task'; // adicionando a tag criada uma class
+  newDivMyTask.style.background = parameterColor; // adicionado uma cor ao background através de um parâmetro
+  let divMyTask = document.querySelector('.my-tasks'); //selecionando o elemento pai, da tag criada
+  divMyTask.appendChild(newDivMyTask); // 'ligando pai e filho'
+}
+addColorTask('red'); // chamador com a cor que irá receber o parâmetro
+
+function addTaskSelect() {
+  let taskCompleted = document.querySelector('.task');
+
+  taskCompleted.addEventListener('click', function () {
+    if (taskCompleted.classList == 'task selected') {
+      taskCompleted.className = 'task';
+    } else {
+      taskCompleted.className = 'task selected';
+    }
+  });
+}
+addTaskSelect();
+
+function markDay() {
+  let dadList = document.querySelector('#days');
+  let childrenList = dadList.children;
+  for (let index = 0; index < childrenList.length; index++) {
+    childrenList[index].addEventListener('click', function () {
+      if (childrenList[index].style.backgroundColor === 'red') {
+        childrenList[index].style.backgroundColor = 'rgb(238,238,238)';
+        console.log('aqui');
+      } else {
+        childrenList[index].style.backgroundColor = 'red';
+        console.log('ou aqui');
+      }
+    });
+  }
+}
+markDay();
+
+// function desmarkDay() {
+//   let dadList = document.querySelector('#days');
+//   let childrenList = dadList.children;
+//   for (let index of childrenList) {
+//     index.addEventListener('click', () => {});
+//   }
+// }
