@@ -60,6 +60,7 @@ const btnSubmit = document.getElementById('btn-submit');
 const dateInput = document.getElementById('input-date');
 const mainBody = document.getElementById('main-body');
 const allInput = document.getElementsByTagName('input');
+const inputRadio = document.querySelectorAll('input[type="radio"]');
 
 function createOptions(element, index) {
   let options = document.createElement('option');
@@ -84,6 +85,20 @@ function validatingDate() {
   }
   return validDate;
 }
+
+function checked(e) {
+  for (let input of inputRadio) {
+    input.removeAttribute('value');
+  }
+  e.value = e.id;
+}
+
+inputRadio[0].addEventListener('click', (e) => {
+  checked(e.target);
+});
+inputRadio[1].addEventListener('click', (e) => {
+  checked(e.target);
+});
 
 function createConfirmationInf() {
   let newDiv = document.createElement('div');
