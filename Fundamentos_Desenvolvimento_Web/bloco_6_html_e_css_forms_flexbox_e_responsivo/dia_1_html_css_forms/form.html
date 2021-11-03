@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main-body">
+      <form action="" method="GET">
+          <div class="form-group container">
+            <h2 class="text-center">Dados Pessoais</h2>
+            <section>
+            <label for="input-nome" class="form-label">Nome</label>
+            <input
+              type="text"
+              maxlength="40"
+              required
+              id="input-nome"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group container">
+            <label for="input-email">Email</label>
+            <input
+              type="email"
+              maxlength="50"
+              required
+              id="input-email"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group container">
+            <label for="input-cpf">CPF</label>
+            <input
+              type="text"
+              maxlength="11"
+              required
+              id="input-cpf"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group container">
+            <label for="input-adress">Endereço</label>
+            <input
+              type="text"
+              maxlength="200"
+              required
+              id="input-adress"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group container">
+            <label for="input-city">Cidade</label>
+            <input type="text" id="input-city" class="form-control" />
+          </div>
+          <div class="form-group container">
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" class="form-control"></select>
+          </div>
+          <div class="form-group container" id="seilaoq">
+              <legend>Tipo</legend>
+              <input
+                type="radio"
+                name="tipo-moradia"
+                id="house"
+                checked
+              />
+              <label for="house">Casa</label>
+              <input
+                type="radio"
+                name="tipo-moradia"
+                id="apartament"
+              />
+              <label for="apartament">Apartamento</label>  
+          </div>
+        </section>
+        <section>
+          <h2 class="text-center">Cargo Anterior</h2>
+          <div class="form-group container">
+            <label for="resumo-currilo">Resumo do Currículo </label>
+            <textarea
+              name="resumo-currilo"
+              id="resumo-currilo"
+              cols="30"
+              rows="10"
+              maxlength="1000"
+              class="form-control"
+            ></textarea>
+          </div>
+          <div class="form-group container">
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo" class="form-control" />
+          </div>
+          <div class="form-group container">
+            <label for="descrição">Descrição do cargo </label>
+            <input
+              type="text"
+              maxlength="500"
+              required
+              id="descrição"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group container">
+            <label for="input-date">Data de Inicio</label>
+            <input
+              type="text"
+              id="input-date"
+              pattern="\d{2}/\d{2}/\d{4}"
+              required
+              class="form-control"
+            />
+          </div>
+        </section>
+        <br>
+        <div class="form-group container mb-3">
+          <button id="btn-submit" type="submit" class="btn btn-outline-primary">ENVIAR</button>
+        </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
