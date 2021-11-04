@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox - Flex Flow</title>
+    <style>
+      .box {
+        color: #9069ef;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        /* Não mudou, pois por padrão já é row */
+        /* flex-direction: row; */
+        /* colocou os itens de forma um embaixo do outro */
+        /* flex-direction: column; */
+        /* alterou o sentindo dos itens, ultimo virou primeiro, mas o padrão linha continuou */
+        /* flex-direction: row-reverse; */
+        /* alterou o eixo sendo de organização e inverteu a ordem */
+        /* flex-direction: column-reverse; */
+        /* colocou uma quebra de linha caso o item não cabe na mesma linha que os demais */
+        /* flex-wrap: wrap; */
+        /* comportamento padrão do display-flex, colocando todos os itens em uma mesma linha */
+        /* flex-wrap: nowrap; */
+        /* junção da flex-direction e flex wrap */
+        /* flex-flow: column-reverse nowrap; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>
