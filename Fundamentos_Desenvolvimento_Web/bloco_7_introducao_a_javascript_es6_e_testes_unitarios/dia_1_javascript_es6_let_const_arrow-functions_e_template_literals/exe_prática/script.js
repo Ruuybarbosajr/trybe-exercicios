@@ -104,8 +104,8 @@ const changeString = (string) => {
 };
 
 const mySkills = [
-	'comunicação',
-	'flexibilidade',
+	'Comunicação',
+	'Flexibilidade',
 	'Pensamento Criativo',
 	'Sociabilidade',
 	'Vontade de Ajudar',
@@ -113,9 +113,19 @@ const mySkills = [
 ];
 
 const concatenation = (changeString) => {
-	return `${changeString} Minhas seis principais habilidades são: ${mySkills.join(
-		', '
-	)}`;
+	let skills = '';
+	mySkills
+		.sort((a, b) => {
+			return a.toLowerCase().localeCompare(b.toLowerCase());
+		})
+		.forEach((element) => {
+			skills += `- ${element}
+	`;
+		});
+	return `${changeString} Minhas seis principais habilidades são:
+	${skills}
+	
+	#goTrybe`;
 };
 
 console.log(concatenation(changeString('DEU CERTÃO')));
