@@ -24,42 +24,42 @@
 ##### Bloco 03: Introdução à HTML e CSS
 
 - [x] 01: Introdução - HTML & CSS
-- [ ] 01: HTML & CSS - Estruturas de página
-- [ ] 02: HTML & CSS - Primeiros passos em CSS
-- [ ] 03: HTML & CSS - Seletores e posicionamento
-- [ ] 04: HTML Semântico
-- [ ] 05: Projeto - Lessons Learned
+- [x] 01: HTML & CSS - Estruturas de página
+- [x] 02: HTML & CSS - Primeiros passos em CSS
+- [x] 03: HTML & CSS - Seletores e posicionamento
+- [x] 04: HTML Semântico
+- [x] 05: Projeto - Lessons Learned
 
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
-- [ ] 01: Introdução - JavaScript
-- [ ] 01: JavaScript - Primeiros passos
-- [ ] 02: JavaScript - Array e loop For
-- [ ] 03: JavaScript - Lógica de Programação e Algoritmos
-- [ ] 04: JavaScript - Objetos e funções
-- [ ] 05: Projeto - Playground Functions
+- [x] 01: Introdução - JavaScript
+- [x] 01: JavaScript - Primeiros passos
+- [x] 02: JavaScript - Array e loop For
+- [x] 03: JavaScript - Lógica de Programação e Algoritmos
+- [x] 04: JavaScript - Objetos e funções
+- [x] 05: Projeto - Playground Functions
 
 ##### Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
-- [ ] 01: JavaScript - DOM e seletores
-- [ ] 02: JavaScript - Trabalhando com elementos
-- [ ] 03: JavaScript - Eventos
-- [ ] 04: JavaScript - Web Storage
-- [ ] 05: Fundamentos - JavaScript - Projetos
-- [ ] 05: Projeto - Arte com Pixels
-- [ ] 06: Projeto - Lista de tarefas
-- [ ] 07: (Bônus) Projeto - Meme Generator
-- [ ] 07: (Bônus) Projeto - Adivinhe a Cor
-- [ ] 07: (Bônus) Projeto - Carta Misteriosa
+- [x] 01: JavaScript - DOM e seletores
+- [x] 02: JavaScript - Trabalhando com elementos
+- [x] 03: JavaScript - Eventos
+- [x] 04: JavaScript - Web Storage
+- [x] 05: Fundamentos - JavaScript - Projetos
+- [x] 05: Projeto - Arte com Pixels
+- [x] 06: Projeto - Lista de tarefas
+- [x] 07: (Bônus) Projeto - Meme Generator
+- [x] 07: (Bônus) Projeto - Adivinhe a Cor
+- [x] 07: (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 01: HTML & CSS - Forms
-- [ ] 02: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 03: Introdução - CSS Flexbox
-- [ ] 03: CSS Flexbox - Parte 1
-- [ ] 04: CSS Flexbox - Parte 2
-- [ ] 05: CSS Responsivo - Mobile First
+- [x] 01: HTML & CSS - Forms
+- [x] 02: Bibliotecas JavaScript e Frameworks CSS
+- [x] 03: Introdução - CSS Flexbox
+- [x] 03: CSS Flexbox - Parte 1
+- [x] 04: CSS Flexbox - Parte 2
+- [x] 05: CSS Responsivo - Mobile First
 - [ ] 06: Projeto - Trybewarts
 
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
