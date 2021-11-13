@@ -2,7 +2,7 @@
 	"name": "dia_3_primeiros_passos_em_jest",
 	"version": "1.0.0",
 	"description": "",
-	"main": "sum.js",
+	"main": "myFizzBuzz.js",
 	"scripts": {
 		"test": "jest"
 	},
