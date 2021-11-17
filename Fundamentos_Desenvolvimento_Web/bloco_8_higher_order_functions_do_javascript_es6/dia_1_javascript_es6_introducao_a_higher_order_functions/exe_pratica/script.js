@@ -38,12 +38,9 @@ const studentAnswers = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 const corretResponse = (template, responseStudent) => {
 	let score = 0;
 	responseStudent.forEach((element, index) => {
-		if (element === 'N.A') {
-			score += 0;
-		} else if (element === template[index]) {
-			score += 1;
-		} else {
-			score -= 0.5;
+		if (element === template[index]) score += 1;
+		if (element !== template[index]) {
+			element === 'N.A' ? (score += 0) : (score -= 0.5);
 		}
 	});
 	return `Nota do estudante: ${score}`;
