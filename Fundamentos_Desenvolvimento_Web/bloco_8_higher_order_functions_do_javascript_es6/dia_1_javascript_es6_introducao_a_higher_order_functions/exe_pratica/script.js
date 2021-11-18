@@ -9,7 +9,7 @@ const newEmployees = (callback) => {
 };
 
 const dataEmployees = (nomeCompleto) => {
-	let email = `${nomeCompleto.replace(' ', '_')}@trybe.com`;
+	let email = `${nomeCompleto.replace(' ', '_').toLowerCase()}@trybe.com`;
 	return { nomeCompleto, email };
 };
 
@@ -23,7 +23,7 @@ const resultRaffle = (betNumber, drawnNumber) => {
 };
 
 const raffle = (betNumber, callback) => {
-	let drawnNumber = parseInt(Math.random() * 5);
+	let drawnNumber = Math.round(Math.random() * 5);
 	return callback(betNumber, drawnNumber);
 };
 
