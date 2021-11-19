@@ -1,0 +1,15 @@
+{
+	"name": "dia_3_primeiros_passos_em_jest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "myFizzBuzz.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^27.3.1"
+	}
+}
