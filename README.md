@@ -6,7 +6,7 @@
 
 - A formação em desenvolvimento Web na [Trybe](https://www.betrybe.com/) é dividida em quatro módulos: Fundamentos do Desenvolvimento Web, Desenvolvimento Front-end, Desenvolvimento Back-end e Ciência da Computação.
 
-### Fundamentos do Desenvolvimento Web
+### Fundamentos do Desenvolvimento Web: Concluido :heavy_check_mark:
 
 ##### Bloco 01: Unix & Bash
 
@@ -60,74 +60,74 @@
 - [x] 03: CSS Flexbox - Parte 1
 - [x] 04: CSS Flexbox - Parte 2
 - [x] 05: CSS Responsivo - Mobile First
-- [ ] 06: Projeto - Trybewarts
+- [x] 06: Projeto - Trybewarts
 
 ##### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] 01: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 02: JavaScript ES6 - Objects
-- [ ] 03: Primeiros passos em Jest
-- [ ] 04: Projeto - JavaScript Testes Unitários
+- [x] 01: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 02: JavaScript ES6 - Objects
+- [x] 03: Primeiros passos em Jest
+- [x] 04: Projeto - JavaScript Testes Unitários
 
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 
-- [ ] 01: JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 03: JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 04: JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 06: Projeto - Zoo functions
+- [x] 01: JavaScript ES6 - Introdução a Higher Order Functions
+- [x] 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] 03: JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 04: JavaScript ES6 - Higher Order Functions - reduce
+- [x] 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 06: Projeto - Zoo functions
 
 ##### Bloco 09: JavaScript Assíncrono e Promises
 
-- [ ] 01: JavaScript Assíncrono e Callbacks
-- [ ] 02: JavaScript Promises
-- [ ] 03: Projeto - Carrinho de Compras
+- [x] 01: JavaScript Assíncrono e Callbacks
+- [x] 02: JavaScript Promises
+- [x] 03: Projeto - Carrinho de Compras
 
 ##### Bloco 10: Testes automatizados com Jest
 
-- [ ] 01: Primeiros passos no Jest
-- [ ] 02: Jest - Testes Assíncronos
-- [ ] 03: Jest - Simulando comportamentos
-- [ ] 04: Projeto - Jest Assíncrono e Mocking
+- [x] 01: Primeiros passos no Jest
+- [x] 02: Jest - Testes Assíncronos
+- [x] 03: Jest - Simulando comportamentos
+- [x] 04: Projeto - Jest Assíncrono e Mocking
 
 ### Desenvolvimento Front-end
 
 #### Bloco 11: Introdução à React
 
-- [ ] 01: Introdução - Front-end
-- [ ] 01: Introdução - React
-- [ ] 01: 'Hello, world!' no React!
-- [ ] 02: Componentes React
-- [ ] 03: Projeto - Movie Cards Library
+- [x] 01: Introdução - Front-end
+- [x] 01: Introdução - React
+- [x] 01: 'Hello, world!' no React!
+- [x] 02: Componentes React
+- [x] 03: Projeto - Movie Cards Library
 
 #### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 01: Componentes com estado e eventos
-- [ ] 02: Formulários no React
-- [ ] 03: Projeto - Movie Cards Library Stateful
+- [x] 01: Componentes com estado e eventos
+- [x] 02: Formulários no React
+- [x] 03: Projeto - Movie Cards Library Stateful
 
 #### Bloco 13: Ciclo de Vida de Componentes e React Router
 
-- [ ] 01: Ciclo de vida de componentes
-- [ ] 02: React Router
-- [ ] 03: Projeto - TrybeTunes
+- [x] 01: Ciclo de vida de componentes
+- [x] 02: React Router
+- [x] 03: Projeto - TrybeTunes
 
 #### Bloco 14: Metodologias Ágeis
 
-- [ ] 01: Metodologias Ágeis
-- [ ] 02: Projeto - Frontend Online Store
+- [x] 01: Metodologias Ágeis
+- [x] 02: Projeto - Frontend Online Store
 
 #### Bloco 15: Testes automatizados com React Testing Library
 
-- [ ] 01: RTL - Primeiros passos
-- [ ] 02: RTL - Mocks e Inputs
-- [ ] 03: RTL - Testando React Router
-- [ ] 04: Projeto - Testes em React
+- [x] 01: RTL - Primeiros passos
+- [x] 02: RTL - Mocks e Inputs
+- [x] 03: RTL - Testando React Router
+- [x] 04: Projeto - Testes em React
 
 #### Bloco 16: Gerenciamento de estado com Redux
 
-- [ ] 01: Introdução ao Redux - O estado global da aplicação
+- [x] 01: Introdução ao Redux - O estado global da aplicação
 - [ ] 02: Usando o Redux no React
 - [ ] 03: Usando o Redux no React - Prática
 - [ ] 04: Usando o Redux no React - Actions Assíncronas
