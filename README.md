@@ -91,7 +91,7 @@
 - [x] 03: Jest - Simulando comportamentos
 - [x] 04: Projeto - Jest Assíncrono e Mocking
 
-### Desenvolvimento Front-end
+### Desenvolvimento Front-end: Em andamento :hourglass:
 
 #### Bloco 11: Introdução à React
 
