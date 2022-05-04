@@ -4,7 +4,7 @@ async function getCep (cep) {
   const response = await cepModels.getCep(cep.replace(/-/g, ''))
 
   if (!response.length) {
-    const error = { "status": 404, "message": "CEP não encontrado" }
+    const error = { status: 404, message: "CEP não encontrado" }
     throw error
   }
   return response
