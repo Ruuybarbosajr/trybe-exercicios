@@ -91,7 +91,7 @@
 - [x] 03: Jest - Simulando comportamentos
 - [x] 04: Projeto - Jest Assíncrono e Mocking
 
-### Desenvolvimento Front-end: Em andamento :hourglass:
+### Desenvolvimento Front-end: Concluido :heavy_check_mark:
 
 #### Bloco 11: Introdução à React
 
@@ -128,45 +128,45 @@
 #### Bloco 16: Gerenciamento de estado com Redux
 
 - [x] 01: Introdução ao Redux - O estado global da aplicação
-- [ ] 02: Usando o Redux no React
-- [ ] 03: Usando o Redux no React - Prática
-- [ ] 04: Usando o Redux no React - Actions Assíncronas
-- [ ] 05: Testes em React-Redux
-- [ ] 06: Projeto - Trybe Wallet
+- [x] 02: Usando o Redux no React
+- [x] 03: Usando o Redux no React - Prática
+- [x] 04: Usando o Redux no React - Actions Assíncronas
+- [x] 05: Testes em React-Redux
+- [x] 06: Projeto - Trybe Wallet
 
 #### Bloco 17: Projeto Jogo de Trivia
 
-- [ ] 01: Projeto - Jogo de Trivia
+- [x] 01: Projeto - Jogo de Trivia
 
 #### Bloco 18: Context API e React Hooks
 
-- [ ] 01: Context API do React
-- [ ] 02: React Hooks - useState e useContext
-- [ ] 03: React Hooks - useEffect e Hooks customizados
-- [ ] 04: Projeto - StarWars Datatable com Context API e Hooks
+- [x] 01: Context API do React
+- [x] 02: React Hooks - useState e useContext
+- [x] 03: React Hooks - useEffect e Hooks customizados
+- [x] 04: Projeto - StarWars Datatable com Context API e Hooks
 
 #### Bloco 19: Projeto App de Receitas
 
-- [ ] 01: Projeto - App de Receitas
+- [x] 01: Projeto - App de Receitas
 
-### Desenvolvimento Back-end
+### Desenvolvimento Back-end: Em andamento :hourglass:
 
 ##### Bloco 20: Introdução à SQL
 
-- [ ] 01: Introdução - Back-end
-- [ ] 01: Introdução - Bancos de dados relacionais
-- [ ] 01: Banco de dados SQL
-- [ ] 02: Encontrando dados em um banco de dados
-- [ ] 03: Filtrando dados de forma específica
-- [ ] 04: Manipulando tabelas
-- [ ] 05: Projeto - All For One
+- [x] 01: Introdução - Back-end
+- [x] 01: Introdução - Bancos de dados relacionais
+- [x] 01: Banco de dados SQL
+- [x] 02: Encontrando dados em um banco de dados
+- [x] 03: Filtrando dados de forma específica
+- [x] 04: Manipulando tabelas
+- [x] 05: Projeto - All For One
 
 ##### Bloco 21: Funções SQL, Joins e Subqueries
 
-- [ ] 01: Funções mais usadas no SQL
-- [ ] 02: Descomplicando JOINs, UNIONs e Subqueries
-- [ ] 03: Stored Routines & Stored Functions
-- [ ] 04: Projeto - Vocabulary Booster
+- [x] 01: Funções mais usadas no SQL
+- [x] 02: Descomplicando JOINs, UNIONs e Subqueries
+- [x] 03: Stored Routines & Stored Functions
+- [x] 04: Projeto - Vocabulary Booster
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
