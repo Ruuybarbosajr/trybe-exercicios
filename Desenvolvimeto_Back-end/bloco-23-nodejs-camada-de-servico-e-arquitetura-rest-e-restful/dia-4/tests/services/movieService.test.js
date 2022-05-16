@@ -3,6 +3,7 @@ const { expect } = require('chai')
 
 const movieService = require('../../services/movieService')
 const movieModel = require('../../models/movieModel')
+const req = require('express/lib/request')
 
 describe('Insere um novo filme no BD', () => {
   describe('quando o payload informado não é válido', () => {
